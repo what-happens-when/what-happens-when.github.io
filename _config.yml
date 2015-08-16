@@ -29,13 +29,11 @@ version:             0.0.1
 github:
   repo:              https://github.com/what-happens-when/what-happens-when.github.io
 
-markdown:    kramdown
 gems:
   - jekyll-sitemap
 
-kramdown:
-  auto_ids: true
-  #footnote_nr: 1
-  #entity_output: as_char
-  toc_levels: 1..2
-  #use_coderay: false
+markdown: rdiscount
+
+rdiscount:
+  extensions: ["autolink", "footnotes", "generate_toc", "smart"]
+  toc_token: "[TOC]"

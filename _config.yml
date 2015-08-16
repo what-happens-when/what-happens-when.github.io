@@ -1,11 +1,41 @@
-# Site settings
-title: What Happens When?
-email: 
-description:
-baseurl:
-url: "http://what-happens-when.github.io"
-twitter_username: 
-github_username:  whathappenswhen
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:               What Happens When?
+tagline:             Seriously
+url:                 http://what-happens-when.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              George
+  url:               https://twitter.com/thehappyhapps
+  email:             butwhatreallyhappens@gmail.com
+
+# Custom vars
+version:             0.0.1
+github:
+  repo:              https://github.com/what-happens-when/what-happens-when.github.io
+
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  #footnote_nr: 1
+  #entity_output: as_char
+  toc_levels: 1..2
+  #use_coderay: false

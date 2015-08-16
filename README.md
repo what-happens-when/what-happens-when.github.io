@@ -1,5 +1,7 @@
 # CALLING ALL PEDANTS
 
+[Unleash hell](https://what-happens-when.github.io)
+
 Inspired by [what-happens-when](https://github.com/alex/what-happens-when) - more specifically, [Issue #49](https://github.com/alex/what-happens-when/issues/49)
 
 This repository is for:

@@ -15,7 +15,7 @@ This will exist as a simple jekyll site for now, so
 
 * Topics live in /when...
 * ...and are titled to complete the question "What happens when..."
-  * e.g., /when/you_give_a_mouse_a_cookie.html
+  * e.g., /when/you_give_a_mouse_a_cookie.md
 * The more details the better
 * If you are submitting a new topic page, try and at least provide an initial Table of Contents and whatever details you have on the topic to get it started
 * Topic pages will follow the format of OOOP (One and Only Original Post)

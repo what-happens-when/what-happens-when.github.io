@@ -1,0 +1,11 @@
+# Site settings
+title: What Happens When?
+email: 
+description:
+baseurl:
+url: "http://what-happens-when.github.io"
+twitter_username: 
+github_username:  whathappenswhen
+
+# Build settings
+markdown: kramdown
